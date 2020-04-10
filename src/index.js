@@ -1,13 +1,20 @@
-import React from 'react';
+import React ,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Index from './Componnets/LikeButton';
+import List from './Componnets/List'
+import Clock from './Componnets/Timer'
+import CommentApp from './Comment/CommentApp'
+import AutoFocusInput from './Componnets/AutoFocusInput'
+import Card from './Componnets/Card'
+import Editor from './Componnets/Editor-dangerouslySetHTML'
+import HigherOrder from './Componnets/Higher-Order'
+import Context from './Componnets/context'
 import * as serviceWorker from './serviceWorker';
 
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Context />,
   document.getElementById('root')
 );
 
