@@ -1,11 +1,14 @@
 ### 学习《React 小书》, 跟着做的各种组件，包括：
 
-1.利用react写的各种组件
-eg: LikeButton、List、Clock 、AutoFocusInput、Card 、Editor、HigherOrder、Context
-2.手写redux
-3.手写react-deux
+* 分支master
 
-分支comment-app3是利用react、redux、react-redux写的评论功能
+1. 利用react写的各种组件
+eg: LikeButton、List、Clock 、AutoFocusInput、Card 、Editor、HigherOrder、Context 
+2. 手写redux
+3. 手写react-deux
+4.第二版的comment
+
+* 分支comment-app3是利用react、redux、react-redux写的评论功能
 
  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
