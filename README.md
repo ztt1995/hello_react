@@ -1,3 +1,8 @@
+## 基于react、redux、react-redux构建的评论功能
+
+#### ![img(text)](https://raw.githubusercontent.com/ztt1995/hello_react/comment-app3/src/img/view.png)
+#### ![img(text)](https://raw.githubusercontent.com/ztt1995/hello_react/comment-app3/src/img/structure.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
