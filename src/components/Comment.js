@@ -7,16 +7,19 @@ class Comment extends Component{
         onDeleteComment: PropTypes.func,
         index: PropTypes.number
     }
+
     constructor(){
         super()
         this.state={
             timeString:''
         }
     }
+
     componentWillMount(){
         this._updateTimeString()
         this._timer = setInterval(this._updateTimeString.bind(this),5000)
     }
+    
     componentWillUnmount(){
         clearInterval(this._timer)
     }
@@ -54,7 +57,7 @@ class Comment extends Component{
             return(
                 <div className='comment'>
                     <div className="comment-user">
-                        <span className="comment-showuser">{comment.username}</span><span className="maohao">:</span>
+                        <span className="comment-username">{comment.username}</span>:
                     </div>
                     <p className="comment-content"
                         dangerouslySetInnerHTML={{__html: this._getProcessedContent(comment.content)}} />
